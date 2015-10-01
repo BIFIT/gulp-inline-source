@@ -67,7 +67,8 @@ var inlinesource = require('gulp-inline-source');
 
 gulp.task('inlinesource', function () {
     var options = {
-        compress: false
+        compress: false,
+        es5: true
     };
 
     return gulp.src('./src/*.html')

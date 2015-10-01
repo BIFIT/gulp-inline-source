@@ -1,10 +1,13 @@
 {
   "name": "gulp-inline-source",
   "version": "2.1.0",
-  "description": "Inline flagged js & css sources.",
+  "description": "Inline flagged js (with ES2015) & css sources.",
   "license": "MIT",
-  "author": "Filip Malinowski <filip@fmal.me>",
-  "repository": "git://github.com/fmal/gulp-inline-source.git",
+  "authors": [
+    "Filip Malinowski <filip@fmal.me>",
+    "Denis Baskovsky <denis@baskovsky.ru>"
+  ],
+  "repository": "git://github.com/BIFIT/gulp-inline-source.git",
   "keywords": [
     "gulpplugin",
     "inline",
@@ -15,7 +18,7 @@
     "test": "tape test/*.js | faucet"
   },
   "dependencies": {
-    "inline-source": "~4.0.1",
+    "inline-source": "https://github.com/BIFIT/inline-source.git",
     "gulp-util": "~3.0.6",
     "through2": "~2.0.0"
   },
