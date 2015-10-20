@@ -43,7 +43,7 @@ Output:
 ## Install
 
 ```bash
-$ npm install gulp-inline-source --save-dev
+$ npm install https://github.com/BIFIT/gulp-inline-source.git --save-dev
 ```
 
 ## Usage
